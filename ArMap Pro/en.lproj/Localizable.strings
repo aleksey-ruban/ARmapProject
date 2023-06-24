@@ -1,0 +1,33 @@
+/* 
+  notifications.strings
+  ArMap Pro
+
+  Created by Алексей Рубан on 30.12.2021.
+  
+*/
+
+"NOTIFICATION_NEW_FRIEND_TITLE" = "New friend request";
+"NOTIFICATION_NEW_FRIEND_BODY" = "%@ wants to add you as a friend.";
+
+"NOTIFICATION_FRIEND_AGREE_TITLE" = "You are friends now!";
+"NOTIFICATION_FRIEND_AGREE_BODY" = "%@ accepted your friend request.";
+
+"NOTIFICATION_ACHIEVEMENT_TITLE" = "New achievement \"Popular\"";
+"NOTIFICATION_ACHIEVEMENT_BODY" = "One of your tags has received over 1000 views.";
+
+"ACCEPT_LOC" = "Accept";
+"REJECT_LOC" = "Reject";
+
+"CHOOSE_MAPS_APP" = "Choose an app to open route";
+"CANCEL" = "Cancel";
+"USE_DEFAULT_MAPS" = "Use these maps by default?";
+"WILL_BE_DEFAULT_MAPS" = "This application will be selected automatically";
+"USE_MAPS" = "Use";
+"NO" = "No";
+
+"NO_INSTALLED_MAPS" = "Supported maps are not installed on your device";
+"CHOOSE_MAPS_APP_TO_INSTALL" = "Choose which app you want to download";
+"DOWNLAOD_APP" = "Download";
+"DEFAULT_MAPS_NOT_INSTALLED" = "The application is not installed";
+"DO_YOU_WANT_INSTALL" = "Do you want to download it?";
+

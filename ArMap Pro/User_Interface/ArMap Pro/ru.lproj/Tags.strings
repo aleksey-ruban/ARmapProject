@@ -1,0 +1,201 @@
+
+/* Class = "UILabel"; text = "Street of this tag"; ObjectID = "0Nn-27-zFz"; */
+"0Nn-27-zFz.text" = "Улица метки";
+
+/* Class = "UILabel"; text = "Category:"; ObjectID = "3LE-fe-px6"; */
+"3LE-fe-px6.text" = "Категория:";
+
+/* Class = "UILabel"; text = "Choose coordinates"; ObjectID = "3da-jN-KYT"; */
+"3da-jN-KYT.text" = "Выберите координаты";
+
+/* Class = "UILabel"; text = "Allow public access"; ObjectID = "6p2-qZ-aMV"; */
+"6p2-qZ-aMV.text" = "Разрешить публичный доступ";
+
+/* Class = "UILabel"; text = "Street of this tag"; ObjectID = "80O-4W-fLl"; */
+"80O-4W-fLl.text" = "Улица метки";
+
+/* Class = "UITextField"; placeholder = "Enter description"; ObjectID = "8oy-XT-jFP"; */
+"8oy-XT-jFP.placeholder" = "Введите описание";
+
+/* Class = "UIButton"; normalTitle = "Add first review"; ObjectID = "AYj-A1-6MW"; */
+"AYj-A1-6MW.normalTitle" = "Добавить первый отзыв";
+
+/* Class = "UILabel"; text = "Reviews"; ObjectID = "Ddt-qR-ySR"; */
+"Ddt-qR-ySR.text" = "Отзывы";
+
+/* Class = "UILabel"; text = "Website:"; ObjectID = "Dk1-2E-Hru"; */
+"Dk1-2E-Hru.text" = "Вебсайт:";
+
+/* Class = "UILabel"; text = "Add photos"; ObjectID = "EFm-Hg-iOY"; */
+"EFm-Hg-iOY.text" = "Добавить фото";
+
+/* Class = "UILabel"; text = "None"; ObjectID = "F9z-Kb-hiK"; */
+"F9z-Kb-hiK.text" = "Ничего";
+
+/* Class = "UIViewController"; title = "Add new tag"; ObjectID = "FWu-Lm-BtR"; */
+"FWu-Lm-BtR.title" = "Добавьте новую метку";
+
+/* Class = "UILabel"; text = "Personal"; ObjectID = "GvG-nj-fQ8"; */
+"GvG-nj-fQ8.text" = "Личные";
+
+/* Class = "UILabel"; text = "If you don't work at weekends, please, set weekends time since 00:00 until 00:00."; ObjectID = "H3e-gb-6K2"; */
+"H3e-gb-6K2.text" = "Если вы не работаете по выходным, пожалуйста, установите для выходных время с 00:00 до 00:00.";
+
+/* Class = "UILabel"; text = "Category"; ObjectID = "Hhj-bA-qV3"; */
+"Hhj-bA-qV3.text" = "Категория";
+
+/* Class = "UILabel"; text = "Contact number"; ObjectID = "IZh-fu-wZn"; */
+"IZh-fu-wZn.text" = "Контактный номер";
+
+/* Class = "UISegmentedControl"; JxA-EK-rND.segmentTitles[0] = "Russian"; ObjectID = "JxA-EK-rND"; */
+"JxA-EK-rND.segmentTitles[0]" = "Русский";
+
+/* Class = "UISegmentedControl"; JxA-EK-rND.segmentTitles[1] = "English"; ObjectID = "JxA-EK-rND"; */
+"JxA-EK-rND.segmentTitles[1]" = "English";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "NKc-T1-3xC"; */
+"NKc-T1-3xC.text" = "Описание";
+
+/* Class = "UILabel"; text = "Localization"; ObjectID = "OXB-Bz-iAa"; */
+"OXB-Bz-iAa.text" = "Локализация";
+
+/* Class = "UILabel"; text = "Contact number:"; ObjectID = "Q4H-YR-J3m"; */
+"Q4H-YR-J3m.text" = "Контактный номер:";
+
+/* Class = "UILabel"; text = "Weekdays:"; ObjectID = "Q6N-RM-Pfd"; */
+"Q6N-RM-Pfd.text" = "Будние:";
+
+/* Class = "UIButton"; normalTitle = "Add review"; ObjectID = "QXv-ko-AVr"; */
+"QXv-ko-AVr.normalTitle" = "Добавить отзыв";
+
+/* Class = "UITextView"; text = "Groove street, 4"; ObjectID = "QwM-oV-pDx"; */
+"QwM-oV-pDx.text" = "Грув стрит, 4";
+
+/* Class = "UITextField"; placeholder = "Enter address"; ObjectID = "QzB-VZ-jXR"; */
+"QzB-VZ-jXR.placeholder" = "Введите адрес";
+
+/* Class = "UILabel"; text = "No search results"; ObjectID = "S89-hP-frb"; */
+"S89-hP-frb.text" = "Ничего не найдено";
+
+/* Class = "UILabel"; text = "Organization website"; ObjectID = "Sct-j3-qgX"; */
+"Sct-j3-qgX.text" = "Вебсайт организации";
+
+/* Class = "UILabel"; text = "Tag name"; ObjectID = "X2Z-b5-1MJ"; */
+"X2Z-b5-1MJ.text" = "Название метки";
+
+/* Class = "UILabel"; text = "Restaurant"; ObjectID = "Xdq-4B-yfj"; */
+"Xdq-4B-yfj.text" = "Ресторан";
+
+/* Class = "UITextField"; placeholder = "Your impressions"; ObjectID = "Xih-N7-Jlf"; */
+"Xih-N7-Jlf.placeholder" = "Ваши впечатления";
+
+/* Class = "UILabel"; text = "1034 views"; ObjectID = "ZMu-wB-mz4"; */
+"ZMu-wB-mz4.text" = "1034 просмотров";
+
+/* Class = "UIViewController"; title = "My tags"; ObjectID = "a2B-1p-n92"; */
+"a2B-1p-n92.title" = "Мои метки";
+
+/* Class = "UITextField"; placeholder = "Enter tag name"; ObjectID = "aBQ-h9-Lbt"; */
+"aBQ-h9-Lbt.placeholder" = "Введите название метки";
+
+/* Class = "UISegmentedControl"; azc-kC-kOV.segmentTitles[0] = "Map"; ObjectID = "azc-kC-kOV"; */
+"azc-kC-kOV.segmentTitles[0]" = "Карта";
+
+/* Class = "UISegmentedControl"; azc-kC-kOV.segmentTitles[1] = "Satellite"; ObjectID = "azc-kC-kOV"; */
+"azc-kC-kOV.segmentTitles[1]" = "Спутник";
+
+/* Class = "UISegmentedControl"; azc-kC-kOV.segmentTitles[2] = "Hybrid"; ObjectID = "azc-kC-kOV"; */
+"azc-kC-kOV.segmentTitles[2]" = "Гибрид";
+
+/* Class = "UILabel"; text = "Author"; ObjectID = "bAn-cX-iHV"; */
+"bAn-cX-iHV.text" = "Автор";
+
+/* Class = "UILabel"; text = "Name of tag"; ObjectID = "bJ8-hy-8UE"; */
+"bJ8-hy-8UE.text" = "Название метки";
+
+/* Class = "UIViewController"; title = "Info View Controller"; ObjectID = "bLx-Wu-HL4"; */
+"bLx-Wu-HL4.title" = "Экран информации";
+
+/* Class = "UIButton"; normalTitle = "Add review"; ObjectID = "eLN-FX-ccM"; */
+"eLN-FX-ccM.normalTitle" = "Добавить отзыв";
+
+/* Class = "UIButton"; normalTitle = "Add tag"; ObjectID = "eNC-eL-TTT"; */
+"eNC-eL-TTT.normalTitle" = "Добавить метку";
+
+/* Class = "UILabel"; text = "Address name"; ObjectID = "fg4-HY-UzU"; */
+"fg4-HY-UzU.text" = "Адрес";
+
+/* Class = "UILabel"; text = "Public"; ObjectID = "fsg-Iz-pg1"; */
+"fsg-Iz-pg1.text" = "Публичные";
+
+/* Class = "UITextView"; text = "armap.com/start/"; ObjectID = "gUS-92-coo"; */
+"gUS-92-coo.text" = "armap.com/start/";
+
+/* Class = "UITextField"; placeholder = "Link to website"; ObjectID = "h3Q-4r-XN8"; */
+"h3Q-4r-XN8.placeholder" = "Ссылка на сайт";
+
+/* Class = "UILabel"; text = "1034 views"; ObjectID = "huX-WW-5gb"; */
+"huX-WW-5gb.text" = "1034 просмотров";
+
+/* Class = "UILabel"; text = "Working hours"; ObjectID = "ife-6A-8UM"; */
+"ife-6A-8UM.text" = "Рабочие часы";
+
+/* Class = "UILabel"; text = "Your impressions"; ObjectID = "jdV-TS-xfY"; */
+"jdV-TS-xfY.text" = "Ваши впечатления";
+
+/* Class = "UILabel"; text = "Working hours"; ObjectID = "mLS-oO-krm"; */
+"mLS-oO-krm.text" = "Рабочие часы";
+
+/* Class = "UILabel"; text = "Show me as author"; ObjectID = "mNh-jD-hlb"; */
+"mNh-jD-hlb.text" = "Показывать моё авторство";
+
+/* Class = "UILabel"; text = "7:00 - 20:00"; ObjectID = "mpH-OV-bzX"; */
+"mpH-OV-bzX.text" = "7:00 - 20:00";
+
+/* Class = "UILabel"; text = "To add review you should write about your impressions"; ObjectID = "msL-TF-Nby"; */
+"msL-TF-Nby.text" = "Чтобы добавить отзыв, вы должны написать о ваших впечатлениях";
+
+/* Class = "UILabel"; text = "__Puschka_03_"; ObjectID = "oim-Aa-Zlw"; */
+"oim-Aa-Zlw.text" = "__Puschka_03_";
+
+/* Class = "UILabel"; text = "10:00 - 18:00"; ObjectID = "orD-FW-JST"; */
+"orD-FW-JST.text" = "10:00 - 18:00";
+
+/* Class = "UILabel"; text = "You should rate the tag"; ObjectID = "pjN-Gg-wfV"; */
+"pjN-Gg-wfV.text" = "Вам следует оценить метку";
+
+/* Class = "UILabel"; text = "Name of tag"; ObjectID = "rHV-4F-Jva"; */
+"rHV-4F-Jva.text" = "Название метки";
+
+/* Class = "UILabel"; text = "When this option is on, your tag will be added to the list, for consideration of publication it."; ObjectID = "sJ0-aN-Zlr"; */
+"sJ0-aN-Zlr.text" = "Если эта опция включена, ваша метка будет добавлена в список для рассмотрения к публикации.";
+
+/* Class = "UILabel"; text = "Address:"; ObjectID = "uCb-1I-V4W"; */
+"uCb-1I-V4W.text" = "Адрес:";
+
+/* Class = "UITextField"; placeholder = "Phone number"; ObjectID = "uKD-ob-o3w"; */
+"uKD-ob-o3w.placeholder" = "Номер телефона";
+
+/* Class = "UILabel"; text = "Aleksey Ruban"; ObjectID = "vpA-0r-2ci"; */
+"vpA-0r-2ci.text" = "Алексей Рубан";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "vpj-Ck-4J7"; */
+"vpj-Ck-4J7.text" = "Описание";
+
+/* Class = "UITextView"; text = "89687154796"; ObjectID = "wNj-tl-xcH"; */
+"wNj-tl-xcH.text" = "89687154796";
+
+/* Class = "UIViewController"; title = "Write review"; ObjectID = "x4h-ws-Ji9"; */
+"x4h-ws-Ji9.title" = "Напишите отзыв";
+
+/* Class = "UILabel"; text = "Weekends:"; ObjectID = "yH3-pk-9d7"; */
+"yH3-pk-9d7.text" = "Выходные:";
+
+/* Class = "UILabel"; text = "No search results"; ObjectID = "yLz-ZI-X31"; */
+"yLz-ZI-X31.text" = "Ничего не найдено";
+
+/* Class = "UITextView"; text = "Welcome, try our meal."; ObjectID = "yja-EC-wuA"; */
+"yja-EC-wuA.text" = "Welcome, try our meal.";
+
+/* Class = "UILabel"; text = "Name must be at least 4 symbols long"; ObjectID = "ysm-2q-Wbm"; */
+"ysm-2q-Wbm.text" = "Название должно состоять хотя бы из 4 символов в длину";

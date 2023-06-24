@@ -1,0 +1,11 @@
+/* 
+  InfoPlist.strings
+  ArMap Pro
+
+  Created by Алексей Рубан on 31.07.2021.
+  
+*/
+
+NSLocationWhenInUseUsageDescription = "Приложение будет использовать Вашу геолокацию для функций дополненной реальности.";
+NSCameraUsageDescription = "Приложение будет использовать камеру для реализации функций дополненной реальности.";
+

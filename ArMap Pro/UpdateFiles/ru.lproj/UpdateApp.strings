@@ -1,0 +1,18 @@
+
+/* Class = "UINavigationItem"; title = "Update is avai"; ObjectID = "6pH-mO-aLg"; */
+"6pH-mO-aLg.title" = "Доступно обновление";
+
+/* Class = "UILabel"; text = "ARmap 2.0"; ObjectID = "CQ6-aA-Chm"; */
+"CQ6-aA-Chm.text" = "ARmap 2.0";
+
+/* Class = "UILabel"; text = "Please update ARmap to the latest version to continue using the app."; ObjectID = "Ktd-gl-On5"; */
+"Ktd-gl-On5.text" = "Пожалуйста, обновите ARmap до последней версии, чтобы продолжить пользоваться приложением.";
+
+/* Class = "UILabel"; text = "Update ARmap"; ObjectID = "TOe-mI-bQl"; */
+"TOe-mI-bQl.text" = "Обновить ARmap";
+
+/* Class = "UIViewController"; title = "Update"; ObjectID = "kUx-nd-AaD"; */
+"kUx-nd-AaD.title" = "Обновление";
+
+/* Class = "UIBUtton"; title = "Update later"; ObjectID = "EDL-8K-UNl"; */
+"EDL-8K-UNl.normalTitle" = "Обновить позже";

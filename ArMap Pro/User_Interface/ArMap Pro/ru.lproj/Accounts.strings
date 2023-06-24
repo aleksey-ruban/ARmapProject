@@ -1,0 +1,327 @@
+
+/* Class = "UITextField"; placeholder = "City"; ObjectID = "0aP-PP-HLA"; */
+"0aP-PP-HLA.placeholder" = "Город";
+
+/* Class = "UIButton"; normalTitle = "Confirm"; ObjectID = "1CY-PQ-hZ7"; */
+"1CY-PQ-hZ7.normalTitle" = "Подтвердить";
+
+/* Class = "UILabel"; text = "The most popular tag"; ObjectID = "1Re-XP-PDb"; */
+"1Re-XP-PDb.text" = "Самая популярная метка";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "3Os-Lz-plo"; */
+"3Os-Lz-plo.placeholder" = "Пароль";
+
+/* Class = "UILabel"; text = "Achievements"; ObjectID = "3wV-uP-G9Y"; */
+"3wV-uP-G9Y.text" = "Достижения";
+
+/* Class = "UIButton"; normalTitle = "Sign In"; ObjectID = "4EI-18-NCu"; */
+"4EI-18-NCu.normalTitle" = "Войти";
+
+/* Class = "UILabel"; text = "All friends"; ObjectID = "57J-1Z-ITN"; */
+"57J-1Z-ITN.text" = "Все друзья";
+
+/* Class = "UITextField"; placeholder = "Your email"; ObjectID = "5ms-Gq-z1a"; */
+"5ms-Gq-z1a.placeholder" = "Электронная почта";
+
+/* Class = "UILabel"; text = "28"; ObjectID = "5sO-ZH-6LY"; */
+"5sO-ZH-6LY.text" = "28";
+
+/* Class = "UILabel"; text = "1821 views"; ObjectID = "7c3-tl-esH"; */
+"7c3-tl-esH.text" = "1821 просмотров";
+
+/* Class = "UILabel"; text = "There is no account with this email or the address is incorrect"; ObjectID = "8Sx-uv-nVk"; */
+"8Sx-uv-nVk.text" = "Аккаунта с такой электронной почтой не существует или адрес неверный";
+
+/* Class = "UILabel"; text = "Anastasia Balosova"; ObjectID = "8eT-Rl-GCa"; */
+"8eT-Rl-GCa.text" = "Анастасия Балосова";
+
+/* Class = "UITextField"; placeholder = "Country"; ObjectID = "99s-M2-5P4"; */
+"99s-M2-5P4.placeholder" = "Страна";
+
+/* Class = "UIButton"; normalTitle = "Who can see my birthday"; ObjectID = "9eE-Ih-ShO"; */
+"9eE-Ih-ShO.normalTitle" = "Кто видит мой день рождения";
+
+/* Class = "UILabel"; text = "Perekrestok"; ObjectID = "AVS-ZK-CKi"; */
+"AVS-ZK-CKi.text" = "Перекрёсток";
+
+/* Class = "UITextField"; placeholder = "Confirm password"; ObjectID = "DUQ-LE-BTs"; */
+"DUQ-LE-BTs.placeholder" = "Подтвердите пароль";
+
+/* Class = "UILabel"; text = "Nickname"; ObjectID = "DWd-Na-EdX"; */
+"DWd-Na-EdX.text" = "Никнейму";
+
+/* Class = "UILabel"; text = "Passwords must coinciding"; ObjectID = "EA2-Yz-21F"; */
+"EA2-Yz-21F.text" = "Пароли должны совпадать";
+
+/* Class = "UILabel"; text = "Reset the password"; ObjectID = "EX2-SV-3W8"; */
+"EX2-SV-3W8.text" = "Восстановить пароль";
+
+/* Class = "UILabel"; text = "Talinskaya street, 7"; ObjectID = "GQh-hE-Bzs"; */
+"GQh-hE-Bzs.text" = "Талинская, 7";
+
+/* Class = "UILabel"; text = "The Main"; ObjectID = "GVu-x8-ckX"; */
+"GVu-x8-ckX.text" = "Основное";
+
+/* Class = "UIViewController"; title = "Friends"; ObjectID = "GmM-SO-eGc"; */
+"GmM-SO-eGc.title" = "Друзья";
+
+/* Class = "UILabel"; text = "Nickname:"; ObjectID = "HVB-cV-TOI"; */
+"HVB-cV-TOI.text" = "Никнейм:";
+
+/* Class = "UITextField"; placeholder = "New password"; ObjectID = "HvC-hM-boT"; */
+"HvC-hM-boT.placeholder" = "Новый пароль";
+
+/* Class = "UILabel"; text = "Anastasia Balosova"; ObjectID = "IJ4-Uy-5ro"; */
+"IJ4-Uy-5ro.text" = "Анастасия Балосова";
+
+/* Class = "UILabel"; text = "Name and surname"; ObjectID = "J6w-hR-lYC"; */
+"J6w-hR-lYC.text" = "Имя и фамилия";
+
+/* Class = "UILabel"; text = "or"; ObjectID = "J7O-L7-nZH"; */
+"J7O-L7-nZH.text" = "или";
+
+/* Class = "UIViewController"; title = "Correct your account"; ObjectID = "Jvb-c9-8bY"; */
+"Jvb-c9-8bY.title" = "Редактировать аккаунт";
+
+/* Class = "UILabel"; text = "Passwords must coinciding"; ObjectID = "KH0-Ek-l0P"; */
+"KH0-Ek-l0P.text" = "Пароли должны совпадать";
+
+/* Class = "UILabel"; text = "Search people by"; ObjectID = "KtA-iS-rGg"; */
+"KtA-iS-rGg.text" = "Ищите людей по";
+
+/* Class = "UILabel"; text = "Nickname"; ObjectID = "LJJ-aX-ksN"; */
+"LJJ-aX-ksN.text" = "Никнейм";
+
+/* Class = "UILabel"; text = "Requests for friendship"; ObjectID = "LXK-iA-yA8"; */
+"LXK-iA-yA8.text" = "Заявки в друзья";
+
+/* Class = "UILabel"; text = "_limano@"; ObjectID = "Lpe-Jh-FBz"; */
+"Lpe-Jh-FBz.text" = "_никнейм@";
+
+/* Class = "UILabel"; text = "Age:"; ObjectID = "Nt5-qL-wII"; */
+"Nt5-qL-wII.text" = "Возраст:";
+
+/* Class = "UILabel"; text = "My friends"; ObjectID = "NuB-Hp-eTX"; */
+"NuB-Hp-eTX.text" = "Мои друзья";
+
+/* Class = "UILabel"; text = "Your avatar"; ObjectID = "PPU-Yd-FrP"; */
+"PPU-Yd-FrP.text" = "Ваша аватарка";
+
+/* Class = "UIButton"; normalTitle = "Send new password"; ObjectID = "PrW-6A-w3I"; */
+"PrW-6A-w3I.normalTitle" = "Отправить новый пароль";
+
+/* Class = "UILabel"; text = "Everyone"; ObjectID = "QF2-ES-Jn7"; */
+"QF2-ES-Jn7.text" = "Все";
+
+/* Class = "UILabel"; text = "The password must be at least 8 characters long and contain 3 digits"; ObjectID = "QK4-C9-Fh9"; */
+"QK4-C9-Fh9.text" = "Пароль должен состоять хотя бы из 8 символов в длину и содержать 3 цифры";
+
+/* Class = "UIButton"; normalTitle = "Delete account"; ObjectID = "QxH-VU-Rlg"; */
+"QxH-VU-Rlg.normalTitle" = "Удалить аккаунт";
+
+/* Class = "UILabel"; text = "Country and city"; ObjectID = "RJb-lB-EN7"; */
+"RJb-lB-EN7.text" = "Страна и город";
+
+/* Class = "UITextField"; placeholder = "Your name"; ObjectID = "Rxj-NT-Gkx"; */
+"Rxj-NT-Gkx.placeholder" = "Ваше имя";
+
+/* Class = "UIButton"; normalTitle = "Who can see my country"; ObjectID = "S54-u7-FXR"; */
+"S54-u7-FXR.normalTitle" = "Кто может видеть мою страну";
+
+/* Class = "UITextField"; placeholder = "Your email"; ObjectID = "SIa-P1-0tJ"; */
+"SIa-P1-0tJ.placeholder" = "Электронная почта";
+
+/* Class = "UIButton"; normalTitle = "Who can see my achievements"; ObjectID = "SWj-Dj-Pes"; */
+"SWj-Dj-Pes.normalTitle" = "Кто видит мои достижения";
+
+/* Class = "UILabel"; text = "No search results"; ObjectID = "UP1-1J-W2T"; */
+"UP1-1J-W2T.text" = "Ничего не найдено";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "UX8-rl-oca"; */
+"UX8-rl-oca.placeholder" = "Пароль";
+
+/* Class = "UILabel"; text = "Anastasia Balosova"; ObjectID = "UXg-1U-N3p"; */
+"UXg-1U-N3p.text" = "Анастасия Балосова";
+
+/* Class = "UILabel"; text = "Your avatar"; ObjectID = "Uba-TU-8i3"; */
+"Uba-TU-8i3.text" = "Ваша аватарка";
+
+/* Class = "UIViewController"; title = "My account"; ObjectID = "UnI-h4-qe5"; */
+"UnI-h4-qe5.title" = "Мой аккаунт";
+
+/* Class = "UILabel"; text = "No search results"; ObjectID = "Vgk-HQ-swq"; */
+"Vgk-HQ-swq.text" = "Ничего не найдено";
+
+/* Class = "UIButton"; normalTitle = "Add"; ObjectID = "VnA-nz-vwU"; */
+"VnA-nz-vwU.normalTitle" = "Добавить";
+
+/* Class = "UILabel"; text = "22"; ObjectID = "We8-PZ-9rE"; */
+"We8-PZ-9rE.text" = "22";
+
+/* Class = "UIButton"; normalTitle = "Resend code."; ObjectID = "XgC-aV-0NV"; */
+"XgC-aV-0NV.normalTitle" = "Отправить код ещё раз";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "YBU-E5-Iq5"; */
+"YBU-E5-Iq5.text" = "Имени";
+
+/* Class = "UIViewController"; title = "Reset the password"; ObjectID = "YNR-el-bpN"; */
+"YNR-el-bpN.title" = "Восстановить пароль";
+
+/* Class = "UIButton"; normalTitle = "Reset the password."; ObjectID = "YZP-FF-mNF"; */
+"YZP-FF-mNF.normalTitle" = "Восстановить пароль";
+
+/* Class = "UILabel"; text = "Verification code is incorrect"; ObjectID = "Yal-Wg-FFj"; */
+"Yal-Wg-FFj.text" = "Код подтверждения неверен";
+
+/* Class = "UILabel"; text = "The password is incorrect"; ObjectID = "Yzx-UV-6U8"; */
+"Yzx-UV-6U8.text" = "Пароль неправильный";
+
+/* Class = "UILabel"; text = "Everyone"; ObjectID = "ZCQ-kv-3QX"; */
+"ZCQ-kv-3QX.text" = "Все";
+
+/* Class = "UILabel"; text = "My tags"; ObjectID = "apl-S7-lDC"; */
+"apl-S7-lDC.text" = "Мои метки";
+
+/* Class = "UILabel"; text = "Birthday:"; ObjectID = "bXK-Cg-KiF"; */
+"bXK-Cg-KiF.text" = "День рождения:";
+
+/* Class = "UITextField"; placeholder = "Confirm password "; ObjectID = "bXe-JO-5cD"; */
+"bXe-JO-5cD.placeholder" = "Подтвердите пароль";
+
+/* Class = "UILabel"; text = "Possible friends"; ObjectID = "cHc-Cc-Dqu"; */
+"cHc-Cc-Dqu.text" = "Возможные друзья";
+
+/* Class = "UILabel"; text = "Forgot your password?"; ObjectID = "crj-Ke-946"; */
+"crj-Ke-946.text" = "Забыли пароль?";
+
+/* Class = "UILabel"; text = "3 new"; ObjectID = "dmu-d7-VJ3"; */
+"dmu-d7-VJ3.text" = "3 новых";
+
+/* Class = "UITextField"; placeholder = "Nickname"; ObjectID = "doY-pH-4rz"; */
+"doY-pH-4rz.placeholder" = "Никнейм";
+
+/* Class = "UILabel"; text = "We will send one-off password to your mail."; ObjectID = "e95-Aa-2UV"; */
+"e95-Aa-2UV.text" = "Мы отправим временный пароль на вашу почту.";
+
+/* Class = "UILabel"; text = "Birthday"; ObjectID = "eNT-I5-wXC"; */
+"eNT-I5-wXC.text" = "День рождения";
+
+/* Class = "UILabel"; text = "Name must be at least 3 symbols long"; ObjectID = "ep4-RY-x81"; */
+"ep4-RY-x81.text" = "Имя должно состоять хотя бы из 3 символов в длину";
+
+/* Class = "UITextField"; placeholder = "Your email"; ObjectID = "fhO-ua-nmZ"; */
+"fhO-ua-nmZ.placeholder" = "Электронная почта";
+
+/* Class = "UILabel"; text = "Pushka123"; ObjectID = "hCy-zK-vAJ"; */
+"hCy-zK-vAJ.text" = "Пушка123";
+
+/* Class = "UIViewController"; title = "Add new friends"; ObjectID = "hDN-Al-ngK"; */
+"hDN-Al-ngK.title" = "Добавьте новых друзей";
+
+/* Class = "UIButton"; normalTitle = "Add to friends"; ObjectID = "jO1-o9-PMb"; */
+"jO1-o9-PMb.normalTitle" = "Добавить в друзья";
+
+/* Class = "UITextField"; placeholder = "Your name"; ObjectID = "hMy-BM-1fR"; */
+"hMy-BM-1fR.placeholder" = "Ваше имя";
+
+/* Class = "UILabel"; text = "Privacy"; ObjectID = "i6T-ld-rcn"; */
+"i6T-ld-rcn.text" = "Приватность";
+
+/* Class = "UILabel"; text = "This nickname is booked"; ObjectID = "ite-Nw-ah1"; */
+"ite-Nw-ah1.text" = "Этот никнейм уже занят";
+
+/* Class = "UIButton"; normalTitle = "Log out"; ObjectID = "j32-Dm-DI7"; */
+"j32-Dm-DI7.normalTitle" = "Выйти";
+
+/* Class = "UIButton"; normalTitle = "Save changes"; ObjectID = "ka2-qc-VIO"; */
+"ka2-qc-VIO.normalTitle" = "Сохранить изменения";
+
+/* Class = "UILabel"; text = "Name must be at least 3 characters long"; ObjectID = "kmj-tR-VYs"; */
+"kmj-tR-VYs.text" = "Имя должно состоять хотя бы из 3 символов в длину";
+
+/* Class = "UILabel"; text = "We have sent a letter with verification code to your mail"; ObjectID = "lvP-i4-1n2"; */
+"lvP-i4-1n2.text" = "Мы отправили письмо с кодом подтверждения на вашу почту";
+
+/* Class = "UIViewController"; title = "Enter verification code"; ObjectID = "mPA-xL-KtB"; */
+"mPA-xL-KtB.title" = "Введите код подтверждения";
+
+/* Class = "UIButton"; normalTitle = "Who can see my personal tags"; ObjectID = "muH-Yr-RpX"; */
+"muH-Yr-RpX.normalTitle" = "Кто видит мои личные метки";
+
+/* Class = "UILabel"; text = "Anastasia Balosova"; ObjectID = "mx3-e2-ZSi"; */
+"mx3-e2-ZSi.text" = "Анастасия Балосова";
+
+/* Class = "UILabel"; text = "Your full name"; ObjectID = "nnm-Gg-28r"; */
+"nnm-Gg-28r.text" = "Ваше полное имя";
+
+/* Class = "UILabel"; text = "All friends"; ObjectID = "nui-W4-dNN"; */
+"nui-W4-dNN.text" = "Все друзья";
+
+/* Class = "UITextField"; placeholder = "Verification code"; ObjectID = "nxV-3B-RGe"; */
+"nxV-3B-RGe.placeholder" = "Код подтверждения";
+
+/* Class = "UIButton"; normalTitle = "Sign In"; ObjectID = "ogN-M5-UYu"; */
+"ogN-M5-UYu.normalTitle" = "Войти";
+
+/* Class = "UILabel"; text = "This email is booked or not correct"; ObjectID = "ov0-9M-XGP"; */
+"ov0-9M-XGP.text" = "Эта электронная почта уже занята или введена неверно";
+
+/* Class = "UILabel"; text = "Russia, Moskow"; ObjectID = "p6u-3q-Ggd"; */
+"p6u-3q-Ggd.text" = "Россия, Москва";
+
+/* Class = "UILabel"; text = "136"; ObjectID = "shV-pZ-kfI"; */
+"shV-pZ-kfI.text" = "136";
+
+/* Class = "UIViewController"; title = "Sign In"; ObjectID = "tYj-Jf-9mU"; */
+"tYj-Jf-9mU.title" = "Войти";
+
+/* Class = "UIButton"; normalTitle = "Add your first tag"; ObjectID = "u2d-D4-5zm"; */
+"u2d-D4-5zm.normalTitle" = "Добавье свою первую метку";
+
+/* Class = "UILabel"; text = "The password must be at least 8 characters long and contain 3 digits"; ObjectID = "v1E-5N-zzd"; */
+"v1E-5N-zzd.text" = "Пароль должен состоять хотя бы из 8 символов в длину и содержать 3 цифры";
+
+/* Class = "UIButton"; normalTitle = "Add your first friend"; ObjectID = "ven-vs-jfx"; */
+"ven-vs-jfx.normalTitle" = "Добавьте своего первого друга";
+
+/* Class = "UILabel"; text = "_limano@"; ObjectID = "vlW-cy-1N0"; */
+"vlW-cy-1N0.text" = "_лимано@";
+
+/* Class = "UILabel"; text = "There is no account with this email or the address is incorrect"; ObjectID = "vug-Nc-Ax9"; */
+"vug-Nc-Ax9.text" = "Аккаунта с такой электронной почтой не существует или адрес неверный";
+
+/* Class = "UILabel"; text = "17"; ObjectID = "wLw-yo-Ush"; */
+"wLw-yo-Ush.text" = "17";
+
+/* Class = "UILabel"; text = "_limano@"; ObjectID = "wRh-eu-1KP"; */
+"wRh-eu-1KP.text" = "_лимкно@";
+
+/* Class = "UILabel"; text = "_limano@"; ObjectID = "yOO-Tp-X28"; */
+"yOO-Tp-X28.text" = "_лимано@";
+
+/* Class = "UILabel"; text = "Only Me"; ObjectID = "yUc-oS-JMM"; */
+"yUc-oS-JMM.text" = "Только я";
+
+/* Class = "UIViewController"; title = "Create your account"; ObjectID = "ydc-ug-ma7"; */
+"ydc-ug-ma7.title" = "Создайте свой аккаунт";
+
+/* Class = "UILabel"; text = "Already have an account?"; ObjectID = "ydt-uF-2f8"; */
+"ydt-uF-2f8.text" = "Уже имеете аккаунт?";
+
+/* Class = "UILabel"; text = "Friends"; ObjectID = "yjY-yC-gUW"; */
+"yjY-yC-gUW.text" = "Друзья";
+
+/* Class = "UIButton"; normalTitle = "Who can see my public tags"; ObjectID = "zOR-8Y-qPN"; */
+"zOR-8Y-qPN.normalTitle" = "Кто видит мои публичные метки";
+
+/* Class = "UIButton"; normalTitle = "Sign Up"; ObjectID = "zXK-x9-gTh"; */
+"zXK-x9-gTh.normalTitle" = "Зарегистрироваться";
+
+/* Class = "UILabel"; text = "Mar"; ObjectID = "zzc-kr-IS0"; */
+"zzc-kr-IS0.text" = "Mar";
+
+/* Class = "UITextField"; text = "Your birthday"; ObjectID = "Kiv-UG-D0G"; */
+"Kiv-UG-D0G.text" = "День рождения:";
+
+/* Class = "UILabel"; text = "Please, agree to continue"; ObjectID = "msZ-TN-wGy"; */
+"msZ-TN-wGy.text" = "Пожалуйста, согласитесь, чтобы продолжить";

@@ -1,0 +1,948 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6115A3FD267237DC00403330 /* WriteReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6115A3FC267237DC00403330 /* WriteReviewViewController.swift */; };
+		611770D426C2C56B002A4985 /* SceneLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611770CF26C2C56B002A4985 /* SceneLocationView.swift */; };
+		611770D626C2C56B002A4985 /* SceneLocationView+ARSCNViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611770D126C2C56B002A4985 /* SceneLocationView+ARSCNViewDelegate.swift */; };
+		611770D726C2C56B002A4985 /* SceneLocationViewEstimateDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611770D326C2C56B002A4985 /* SceneLocationViewEstimateDelegate.swift */; };
+		611770DE26C2C57E002A4985 /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611770D826C2C57E002A4985 /* CGPoint+Extensions.swift */; };
+		611770DF26C2C57E002A4985 /* FloatingPoint+Radians.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611770D926C2C57E002A4985 /* FloatingPoint+Radians.swift */; };
+		611770E026C2C57E002A4985 /* BaseTypes+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611770DA26C2C57E002A4985 /* BaseTypes+Extensions.swift */; };
+		611770E126C2C57E002A4985 /* SCNNode+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611770DB26C2C57E002A4985 /* SCNNode+Extensions.swift */; };
+		611770E226C2C57E002A4985 /* SCNVector3+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611770DC26C2C57E002A4985 /* SCNVector3+Extensions.swift */; };
+		611770E326C2C57E002A4985 /* CLLocation+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611770DD26C2C57E002A4985 /* CLLocation+Extensions.swift */; };
+		611770E826C2C591002A4985 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611770E426C2C591002A4985 /* LocationManager.swift */; };
+		611770E926C2C591002A4985 /* SceneLocationEstimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611770E526C2C591002A4985 /* SceneLocationEstimate.swift */; };
+		611770EA26C2C591002A4985 /* SceneLocationEstimate+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611770E626C2C591002A4985 /* SceneLocationEstimate+Extensions.swift */; };
+		611770EB26C2C591002A4985 /* SceneLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611770E726C2C591002A4985 /* SceneLocationManager.swift */; };
+		611770F026C2C5AD002A4985 /* PolylineNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611770EC26C2C5AD002A4985 /* PolylineNode.swift */; };
+		611770F126C2C5AD002A4985 /* ScalingScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611770ED26C2C5AD002A4985 /* ScalingScheme.swift */; };
+		611770F226C2C5AD002A4985 /* LocationNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611770EE26C2C5AD002A4985 /* LocationNode.swift */; };
+		611770F326C2C5AD002A4985 /* LocationAnnotationNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611770EF26C2C5AD002A4985 /* LocationAnnotationNode.swift */; };
+		611770F526C2C5BA002A4985 /* AttributedType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611770F426C2C5BA002A4985 /* AttributedType.swift */; };
+		61194A00277BA68A00D7C3E0 /* updateAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611949FF277BA68A00D7C3E0 /* updateAppViewController.swift */; };
+		613804AF2780683A000BFAA6 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613804AE2780683A000BFAA6 /* NetworkMonitor.swift */; };
+		613C560627B8180C00ADFAAE /* OpenMapDirections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613C560527B8180C00ADFAAE /* OpenMapDirections.swift */; };
+		61553AF4295CBAF200E804DE /* Security.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61553AF3295CBAF200E804DE /* Security.swift */; };
+		61563EE5277CB0BE00FCC124 /* UpdateApp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61563EE7277CB0BE00FCC124 /* UpdateApp.storyboard */; };
+		615CF942277DC6BC0029C06E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 615CF944277DC6BC0029C06E /* Localizable.strings */; };
+		6172E253277F5B920098190D /* protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6172E252277F5B920098190D /* protocols.swift */; };
+		6174133726592D0E0051845F /* StartFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6174133626592D0E0051845F /* StartFunctions.swift */; };
+		6174B932266B6C1000CA28C9 /* Accounts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6174B930266B6C1000CA28C9 /* Accounts.storyboard */; };
+		6174B937266B6D6200CA28C9 /* Tags.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6174B935266B6D6200CA28C9 /* Tags.storyboard */; };
+		618188DA265BC2D100B1BF1D /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618188D9265BC2D100B1BF1D /* CreateAccountViewController.swift */; };
+		618188DC265BC36100B1BF1D /* AccountInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618188DB265BC36100B1BF1D /* AccountInfoViewController.swift */; };
+		618188DE265BC3F200B1BF1D /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618188DD265BC3F200B1BF1D /* FriendsViewController.swift */; };
+		618188E0265BC48300B1BF1D /* TagsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618188DF265BC48300B1BF1D /* TagsListViewController.swift */; };
+		619372E926594124004E1B35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61D69C332657FF1300B84E75 /* LaunchScreen.storyboard */; };
+		6198B477266218E400BE1E0D /* EmailCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6198B476266218E400BE1E0D /* EmailCodeViewController.swift */; };
+		6198B4792662686D00BE1E0D /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6198B4782662686D00BE1E0D /* ResetPasswordViewController.swift */; };
+		6198B47B266288B500BE1E0D /* CorrectAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6198B47A266288B500BE1E0D /* CorrectAccountViewController.swift */; };
+		6198B47D2662C85D00BE1E0D /* HighlightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6198B47C2662C85D00BE1E0D /* HighlightView.swift */; };
+		61AA8E8226B5B81600F101F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 61AA8E8426B5B81600F101F2 /* InfoPlist.strings */; };
+		61B6213E282855AB000912A4 /* DistanceUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B6213D282855AB000912A4 /* DistanceUpdater.swift */; };
+		61B694322676456B00AD61C2 /* AddFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B694312676456B00AD61C2 /* AddFriendsViewController.swift */; };
+		61B6943426767EF800AD61C2 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B6943326767EF800AD61C2 /* Helpers.swift */; };
+		61BE957F2661077B0030503E /* SingInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BE957E2661077B0030503E /* SingInViewController.swift */; };
+		61D31C0A26A5874D00982471 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61D31C0C26A5874D00982471 /* MainInterface.storyboard */; };
+		61D5FB842680C2EF00E09380 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D5FB832680C2EF00E09380 /* Server.swift */; };
+		61D69C292657FF1200B84E75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D69C282657FF1200B84E75 /* AppDelegate.swift */; };
+		61D69C2B2657FF1200B84E75 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D69C2A2657FF1200B84E75 /* SceneDelegate.swift */; };
+		61D69C2D2657FF1200B84E75 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D69C2C2657FF1200B84E75 /* MainViewController.swift */; };
+		61D69C322657FF1300B84E75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61D69C312657FF1300B84E75 /* Assets.xcassets */; };
+		61D69C402657FF1300B84E75 /* ArMap_ProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D69C3F2657FF1300B84E75 /* ArMap_ProTests.swift */; };
+		61D69C4B2657FF1300B84E75 /* ArMap_ProUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D69C4A2657FF1300B84E75 /* ArMap_ProUITests.swift */; };
+		61D69C5A2657FF9D00B84E75 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61D69C592657FF9D00B84E75 /* MapKit.framework */; };
+		61D69C5D26580AE300B84E75 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D69C5C26580AE300B84E75 /* MapViewController.swift */; };
+		61D69C6126582AC200B84E75 /* AddingAndEditingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D69C6026582AC200B84E75 /* AddingAndEditingViewController.swift */; };
+		61D69C6326582B5A00B84E75 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D69C6226582B5A00B84E75 /* InfoViewController.swift */; };
+		61D69C6526582C3000B84E75 /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D69C6426582C3000B84E75 /* OptionsViewController.swift */; };
+		61D69C6926582D1600B84E75 /* Structures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D69C6826582D1600B84E75 /* Structures.swift */; };
+		61D69C6B26582D5800B84E75 /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D69C6A26582D5800B84E75 /* GlobalVariables.swift */; };
+		61D775E426A723DE00740298 /* ServerAccounts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D775E326A723DE00740298 /* ServerAccounts.swift */; };
+		61D775E626A7240C00740298 /* ServerTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D775E526A7240C00740298 /* ServerTags.swift */; };
+		61D775E826A7242E00740298 /* ServerUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D775E726A7242E00740298 /* ServerUsers.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61D69C3C2657FF1300B84E75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61D69C1D2657FF1200B84E75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61D69C242657FF1200B84E75;
+			remoteInfo = "ArMap Pro";
+		};
+		61D69C472657FF1300B84E75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61D69C1D2657FF1200B84E75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61D69C242657FF1200B84E75;
+			remoteInfo = "ArMap Pro";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6115A3FC267237DC00403330 /* WriteReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteReviewViewController.swift; sourceTree = "<group>"; };
+		611770CF26C2C56B002A4985 /* SceneLocationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneLocationView.swift; path = ../../../ARCoreLocarion/SceneLocationView.swift; sourceTree = "<group>"; };
+		611770D126C2C56B002A4985 /* SceneLocationView+ARSCNViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "SceneLocationView+ARSCNViewDelegate.swift"; path = "../../../ARCoreLocarion/SceneLocationView+ARSCNViewDelegate.swift"; sourceTree = "<group>"; };
+		611770D226C2C56B002A4985 /* ARCL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARCL.h; path = ../../../ARCoreLocarion/ARCL.h; sourceTree = "<group>"; };
+		611770D326C2C56B002A4985 /* SceneLocationViewEstimateDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneLocationViewEstimateDelegate.swift; path = ../../../ARCoreLocarion/SceneLocationViewEstimateDelegate.swift; sourceTree = "<group>"; };
+		611770D826C2C57E002A4985 /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CGPoint+Extensions.swift"; path = "../../../ARCoreLocarion/Extensions/CGPoint+Extensions.swift"; sourceTree = "<group>"; };
+		611770D926C2C57E002A4985 /* FloatingPoint+Radians.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "FloatingPoint+Radians.swift"; path = "../../../ARCoreLocarion/Extensions/FloatingPoint+Radians.swift"; sourceTree = "<group>"; };
+		611770DA26C2C57E002A4985 /* BaseTypes+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "BaseTypes+Extensions.swift"; path = "../../../ARCoreLocarion/Extensions/BaseTypes+Extensions.swift"; sourceTree = "<group>"; };
+		611770DB26C2C57E002A4985 /* SCNNode+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "SCNNode+Extensions.swift"; path = "../../../ARCoreLocarion/Extensions/SCNNode+Extensions.swift"; sourceTree = "<group>"; };
+		611770DC26C2C57E002A4985 /* SCNVector3+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "SCNVector3+Extensions.swift"; path = "../../../ARCoreLocarion/Extensions/SCNVector3+Extensions.swift"; sourceTree = "<group>"; };
+		611770DD26C2C57E002A4985 /* CLLocation+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CLLocation+Extensions.swift"; path = "../../../ARCoreLocarion/Extensions/CLLocation+Extensions.swift"; sourceTree = "<group>"; };
+		611770E426C2C591002A4985 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationManager.swift; path = "../../../ARCoreLocarion/Location Manager/LocationManager.swift"; sourceTree = "<group>"; };
+		611770E526C2C591002A4985 /* SceneLocationEstimate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneLocationEstimate.swift; path = "../../../ARCoreLocarion/Location Manager/SceneLocationEstimate.swift"; sourceTree = "<group>"; };
+		611770E626C2C591002A4985 /* SceneLocationEstimate+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "SceneLocationEstimate+Extensions.swift"; path = "../../../ARCoreLocarion/Location Manager/SceneLocationEstimate+Extensions.swift"; sourceTree = "<group>"; };
+		611770E726C2C591002A4985 /* SceneLocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneLocationManager.swift; path = "../../../ARCoreLocarion/Location Manager/SceneLocationManager.swift"; sourceTree = "<group>"; };
+		611770EC26C2C5AD002A4985 /* PolylineNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PolylineNode.swift; path = ../../../ARCoreLocarion/Nodes/PolylineNode.swift; sourceTree = "<group>"; };
+		611770ED26C2C5AD002A4985 /* ScalingScheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScalingScheme.swift; path = ../../../ARCoreLocarion/Nodes/ScalingScheme.swift; sourceTree = "<group>"; };
+		611770EE26C2C5AD002A4985 /* LocationNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationNode.swift; path = ../../../ARCoreLocarion/Nodes/LocationNode.swift; sourceTree = "<group>"; };
+		611770EF26C2C5AD002A4985 /* LocationAnnotationNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationAnnotationNode.swift; path = ../../../ARCoreLocarion/Nodes/LocationAnnotationNode.swift; sourceTree = "<group>"; };
+		611770F426C2C5BA002A4985 /* AttributedType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AttributedType.swift; path = ../../../ARCoreLocarion/Util/AttributedType.swift; sourceTree = "<group>"; };
+		611949FF277BA68A00D7C3E0 /* updateAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = updateAppViewController.swift; sourceTree = "<group>"; };
+		613804AE2780683A000BFAA6 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		613C560527B8180C00ADFAAE /* OpenMapDirections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OpenMapDirections.swift; path = "ArMap Pro/OpenMapDirections.swift"; sourceTree = SOURCE_ROOT; };
+		61553AF3295CBAF200E804DE /* Security.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Security.swift; sourceTree = "<group>"; };
+		61563EE6277CB0BE00FCC124 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/UpdateApp.storyboard; sourceTree = "<group>"; };
+		61563EE9277CB0C800FCC124 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/UpdateApp.strings; sourceTree = "<group>"; };
+		615CF943277DC6BC0029C06E /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		615CF946277DC6D90029C06E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6172E252277F5B920098190D /* protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = protocols.swift; sourceTree = "<group>"; };
+		6174133626592D0E0051845F /* StartFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartFunctions.swift; sourceTree = "<group>"; };
+		6174B931266B6C1000CA28C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "ArMap Pro/Base.lproj/Accounts.storyboard"; sourceTree = "<group>"; };
+		6174B936266B6D6200CA28C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "ArMap Pro/Base.lproj/Tags.storyboard"; sourceTree = "<group>"; };
+		618188D9265BC2D100B1BF1D /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		618188DB265BC36100B1BF1D /* AccountInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountInfoViewController.swift; sourceTree = "<group>"; };
+		618188DD265BC3F200B1BF1D /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		618188DF265BC48300B1BF1D /* TagsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsListViewController.swift; sourceTree = "<group>"; };
+		6198B476266218E400BE1E0D /* EmailCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailCodeViewController.swift; sourceTree = "<group>"; };
+		6198B4782662686D00BE1E0D /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		6198B47A266288B500BE1E0D /* CorrectAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorrectAccountViewController.swift; sourceTree = "<group>"; };
+		6198B47C2662C85D00BE1E0D /* HighlightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightView.swift; sourceTree = "<group>"; };
+		61AA8E8326B5B81600F101F2 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		61AA8E8626B5B85000F101F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		61B6213D282855AB000912A4 /* DistanceUpdater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceUpdater.swift; sourceTree = "<group>"; };
+		61B694312676456B00AD61C2 /* AddFriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendsViewController.swift; sourceTree = "<group>"; };
+		61B6943326767EF800AD61C2 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		61BE957E2661077B0030503E /* SingInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingInViewController.swift; sourceTree = "<group>"; };
+		61D31C0B26A5874D00982471 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		61D31C0D26A5878E00982471 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = "ArMap Pro/ru.lproj/Tags.strings"; sourceTree = "<group>"; };
+		61D31C0E26A5878E00982471 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/MainInterface.strings; sourceTree = "<group>"; };
+		61D31C0F26A5878E00982471 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = "ArMap Pro/ru.lproj/Accounts.strings"; sourceTree = "<group>"; };
+		61D31C1026A5878E00982471 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		61D5FB832680C2EF00E09380 /* Server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
+		61D69C252657FF1200B84E75 /* ArMap Pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ArMap Pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61D69C282657FF1200B84E75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		61D69C2A2657FF1200B84E75 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		61D69C2C2657FF1200B84E75 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		61D69C312657FF1300B84E75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61D69C342657FF1300B84E75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		61D69C362657FF1300B84E75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61D69C3B2657FF1300B84E75 /* ArMap ProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ArMap ProTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61D69C3F2657FF1300B84E75 /* ArMap_ProTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArMap_ProTests.swift; sourceTree = "<group>"; };
+		61D69C412657FF1300B84E75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61D69C462657FF1300B84E75 /* ArMap ProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ArMap ProUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61D69C4A2657FF1300B84E75 /* ArMap_ProUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArMap_ProUITests.swift; sourceTree = "<group>"; };
+		61D69C4C2657FF1300B84E75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61D69C592657FF9D00B84E75 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		61D69C5C26580AE300B84E75 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		61D69C6026582AC200B84E75 /* AddingAndEditingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingAndEditingViewController.swift; sourceTree = "<group>"; };
+		61D69C6226582B5A00B84E75 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		61D69C6426582C3000B84E75 /* OptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
+		61D69C6826582D1600B84E75 /* Structures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structures.swift; sourceTree = "<group>"; };
+		61D69C6A26582D5800B84E75 /* GlobalVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
+		61D775E326A723DE00740298 /* ServerAccounts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerAccounts.swift; sourceTree = "<group>"; };
+		61D775E526A7240C00740298 /* ServerTags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerTags.swift; sourceTree = "<group>"; };
+		61D775E726A7242E00740298 /* ServerUsers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerUsers.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61D69C222657FF1200B84E75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61D69C5A2657FF9D00B84E75 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61D69C382657FF1300B84E75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61D69C432657FF1300B84E75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		611770CE26C2C546002A4985 /* ARCoreLocation */ = {
+			isa = PBXGroup;
+			children = (
+				611770F426C2C5BA002A4985 /* AttributedType.swift */,
+				611770EF26C2C5AD002A4985 /* LocationAnnotationNode.swift */,
+				611770EE26C2C5AD002A4985 /* LocationNode.swift */,
+				611770EC26C2C5AD002A4985 /* PolylineNode.swift */,
+				611770ED26C2C5AD002A4985 /* ScalingScheme.swift */,
+				611770E426C2C591002A4985 /* LocationManager.swift */,
+				611770E526C2C591002A4985 /* SceneLocationEstimate.swift */,
+				611770E626C2C591002A4985 /* SceneLocationEstimate+Extensions.swift */,
+				611770E726C2C591002A4985 /* SceneLocationManager.swift */,
+				611770DA26C2C57E002A4985 /* BaseTypes+Extensions.swift */,
+				611770D826C2C57E002A4985 /* CGPoint+Extensions.swift */,
+				611770DD26C2C57E002A4985 /* CLLocation+Extensions.swift */,
+				611770D926C2C57E002A4985 /* FloatingPoint+Radians.swift */,
+				611770DB26C2C57E002A4985 /* SCNNode+Extensions.swift */,
+				611770DC26C2C57E002A4985 /* SCNVector3+Extensions.swift */,
+				611770D226C2C56B002A4985 /* ARCL.h */,
+				611770CF26C2C56B002A4985 /* SceneLocationView.swift */,
+				611770D126C2C56B002A4985 /* SceneLocationView+ARSCNViewDelegate.swift */,
+				611770D326C2C56B002A4985 /* SceneLocationViewEstimateDelegate.swift */,
+			);
+			path = ARCoreLocation;
+			sourceTree = "<group>";
+		};
+		61194A01277BA81900D7C3E0 /* UpdateFiles */ = {
+			isa = PBXGroup;
+			children = (
+				61563EE7277CB0BE00FCC124 /* UpdateApp.storyboard */,
+				611949FF277BA68A00D7C3E0 /* updateAppViewController.swift */,
+			);
+			path = UpdateFiles;
+			sourceTree = "<group>";
+		};
+		61566D28275FCA7E003AB275 /* ServerFiles */ = {
+			isa = PBXGroup;
+			children = (
+				61D5FB832680C2EF00E09380 /* Server.swift */,
+				61D775E326A723DE00740298 /* ServerAccounts.swift */,
+				61D775E526A7240C00740298 /* ServerTags.swift */,
+				61D775E726A7242E00740298 /* ServerUsers.swift */,
+			);
+			path = ServerFiles;
+			sourceTree = "<group>";
+		};
+		61566D29275FCABD003AB275 /* User_Interface */ = {
+			isa = PBXGroup;
+			children = (
+				6174B935266B6D6200CA28C9 /* Tags.storyboard */,
+				61D31C0C26A5874D00982471 /* MainInterface.storyboard */,
+				6174B930266B6C1000CA28C9 /* Accounts.storyboard */,
+				61D69C332657FF1300B84E75 /* LaunchScreen.storyboard */,
+			);
+			path = User_Interface;
+			sourceTree = "<group>";
+		};
+		61566D2A275FCB07003AB275 /* Main_ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				61D69C2C2657FF1200B84E75 /* MainViewController.swift */,
+				61D69C5C26580AE300B84E75 /* MapViewController.swift */,
+				61D69C6426582C3000B84E75 /* OptionsViewController.swift */,
+			);
+			path = Main_ViewControllers;
+			sourceTree = "<group>";
+		};
+		61566D2B275FCB7E003AB275 /* Tags_ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				618188DF265BC48300B1BF1D /* TagsListViewController.swift */,
+				6115A3FC267237DC00403330 /* WriteReviewViewController.swift */,
+				61D69C6026582AC200B84E75 /* AddingAndEditingViewController.swift */,
+				61D69C6226582B5A00B84E75 /* InfoViewController.swift */,
+				613C560527B8180C00ADFAAE /* OpenMapDirections.swift */,
+			);
+			path = Tags_ViewControllers;
+			sourceTree = "<group>";
+		};
+		61566D2C275FCBDC003AB275 /* Accounts_ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				61BE957E2661077B0030503E /* SingInViewController.swift */,
+				6198B4782662686D00BE1E0D /* ResetPasswordViewController.swift */,
+				6198B47A266288B500BE1E0D /* CorrectAccountViewController.swift */,
+				618188DD265BC3F200B1BF1D /* FriendsViewController.swift */,
+				618188D9265BC2D100B1BF1D /* CreateAccountViewController.swift */,
+				6198B476266218E400BE1E0D /* EmailCodeViewController.swift */,
+				618188DB265BC36100B1BF1D /* AccountInfoViewController.swift */,
+				61B694312676456B00AD61C2 /* AddFriendsViewController.swift */,
+			);
+			path = Accounts_ViewControllers;
+			sourceTree = "<group>";
+		};
+		61D69C1C2657FF1200B84E75 = {
+			isa = PBXGroup;
+			children = (
+				615CF944277DC6BC0029C06E /* Localizable.strings */,
+				61D69C272657FF1200B84E75 /* ArMap Pro */,
+				61D69C3E2657FF1300B84E75 /* ArMap ProTests */,
+				61D69C492657FF1300B84E75 /* ArMap ProUITests */,
+				61D69C262657FF1200B84E75 /* Products */,
+				61D69C582657FF9D00B84E75 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		61D69C262657FF1200B84E75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61D69C252657FF1200B84E75 /* ArMap Pro.app */,
+				61D69C3B2657FF1300B84E75 /* ArMap ProTests.xctest */,
+				61D69C462657FF1300B84E75 /* ArMap ProUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61D69C272657FF1200B84E75 /* ArMap Pro */ = {
+			isa = PBXGroup;
+			children = (
+				613804AE2780683A000BFAA6 /* NetworkMonitor.swift */,
+				6172E252277F5B920098190D /* protocols.swift */,
+				61194A01277BA81900D7C3E0 /* UpdateFiles */,
+				61566D2C275FCBDC003AB275 /* Accounts_ViewControllers */,
+				611770CE26C2C546002A4985 /* ARCoreLocation */,
+				61566D2A275FCB07003AB275 /* Main_ViewControllers */,
+				61566D28275FCA7E003AB275 /* ServerFiles */,
+				61566D2B275FCB7E003AB275 /* Tags_ViewControllers */,
+				61566D29275FCABD003AB275 /* User_Interface */,
+				61D69C282657FF1200B84E75 /* AppDelegate.swift */,
+				61D69C2A2657FF1200B84E75 /* SceneDelegate.swift */,
+				61D69C6826582D1600B84E75 /* Structures.swift */,
+				61D69C6A26582D5800B84E75 /* GlobalVariables.swift */,
+				61553AF3295CBAF200E804DE /* Security.swift */,
+				61B6213D282855AB000912A4 /* DistanceUpdater.swift */,
+				6174133626592D0E0051845F /* StartFunctions.swift */,
+				6198B47C2662C85D00BE1E0D /* HighlightView.swift */,
+				61B6943326767EF800AD61C2 /* Helpers.swift */,
+				61D69C312657FF1300B84E75 /* Assets.xcassets */,
+				61D69C362657FF1300B84E75 /* Info.plist */,
+				61AA8E8426B5B81600F101F2 /* InfoPlist.strings */,
+			);
+			path = "ArMap Pro";
+			sourceTree = "<group>";
+		};
+		61D69C3E2657FF1300B84E75 /* ArMap ProTests */ = {
+			isa = PBXGroup;
+			children = (
+				61D69C3F2657FF1300B84E75 /* ArMap_ProTests.swift */,
+				61D69C412657FF1300B84E75 /* Info.plist */,
+			);
+			path = "ArMap ProTests";
+			sourceTree = "<group>";
+		};
+		61D69C492657FF1300B84E75 /* ArMap ProUITests */ = {
+			isa = PBXGroup;
+			children = (
+				61D69C4A2657FF1300B84E75 /* ArMap_ProUITests.swift */,
+				61D69C4C2657FF1300B84E75 /* Info.plist */,
+			);
+			path = "ArMap ProUITests";
+			sourceTree = "<group>";
+		};
+		61D69C582657FF9D00B84E75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61D69C592657FF9D00B84E75 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61D69C242657FF1200B84E75 /* ArMap Pro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61D69C4F2657FF1300B84E75 /* Build configuration list for PBXNativeTarget "ArMap Pro" */;
+			buildPhases = (
+				61D69C212657FF1200B84E75 /* Sources */,
+				61D69C222657FF1200B84E75 /* Frameworks */,
+				61D69C232657FF1200B84E75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ArMap Pro";
+			productName = "ArMap Pro";
+			productReference = 61D69C252657FF1200B84E75 /* ArMap Pro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61D69C3A2657FF1300B84E75 /* ArMap ProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61D69C522657FF1300B84E75 /* Build configuration list for PBXNativeTarget "ArMap ProTests" */;
+			buildPhases = (
+				61D69C372657FF1300B84E75 /* Sources */,
+				61D69C382657FF1300B84E75 /* Frameworks */,
+				61D69C392657FF1300B84E75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61D69C3D2657FF1300B84E75 /* PBXTargetDependency */,
+			);
+			name = "ArMap ProTests";
+			productName = "ArMap ProTests";
+			productReference = 61D69C3B2657FF1300B84E75 /* ArMap ProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		61D69C452657FF1300B84E75 /* ArMap ProUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61D69C552657FF1300B84E75 /* Build configuration list for PBXNativeTarget "ArMap ProUITests" */;
+			buildPhases = (
+				61D69C422657FF1300B84E75 /* Sources */,
+				61D69C432657FF1300B84E75 /* Frameworks */,
+				61D69C442657FF1300B84E75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61D69C482657FF1300B84E75 /* PBXTargetDependency */,
+			);
+			name = "ArMap ProUITests";
+			productName = "ArMap ProUITests";
+			productReference = 61D69C462657FF1300B84E75 /* ArMap ProUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61D69C1D2657FF1200B84E75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					61D69C242657FF1200B84E75 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					61D69C3A2657FF1300B84E75 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 61D69C242657FF1200B84E75;
+					};
+					61D69C452657FF1300B84E75 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 61D69C242657FF1200B84E75;
+					};
+				};
+			};
+			buildConfigurationList = 61D69C202657FF1200B84E75 /* Build configuration list for PBXProject "ArMap Pro" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+			);
+			mainGroup = 61D69C1C2657FF1200B84E75;
+			productRefGroup = 61D69C262657FF1200B84E75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61D69C242657FF1200B84E75 /* ArMap Pro */,
+				61D69C3A2657FF1300B84E75 /* ArMap ProTests */,
+				61D69C452657FF1300B84E75 /* ArMap ProUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61D69C232657FF1200B84E75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				619372E926594124004E1B35 /* LaunchScreen.storyboard in Resources */,
+				61AA8E8226B5B81600F101F2 /* InfoPlist.strings in Resources */,
+				6174B937266B6D6200CA28C9 /* Tags.storyboard in Resources */,
+				61D31C0A26A5874D00982471 /* MainInterface.storyboard in Resources */,
+				61D69C322657FF1300B84E75 /* Assets.xcassets in Resources */,
+				6174B932266B6C1000CA28C9 /* Accounts.storyboard in Resources */,
+				61563EE5277CB0BE00FCC124 /* UpdateApp.storyboard in Resources */,
+				615CF942277DC6BC0029C06E /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61D69C392657FF1300B84E75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61D69C442657FF1300B84E75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61D69C212657FF1200B84E75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				611770E026C2C57E002A4985 /* BaseTypes+Extensions.swift in Sources */,
+				61D69C2D2657FF1200B84E75 /* MainViewController.swift in Sources */,
+				61B6943426767EF800AD61C2 /* Helpers.swift in Sources */,
+				611770E926C2C591002A4985 /* SceneLocationEstimate.swift in Sources */,
+				611770E126C2C57E002A4985 /* SCNNode+Extensions.swift in Sources */,
+				611770F526C2C5BA002A4985 /* AttributedType.swift in Sources */,
+				613C560627B8180C00ADFAAE /* OpenMapDirections.swift in Sources */,
+				611770F126C2C5AD002A4985 /* ScalingScheme.swift in Sources */,
+				61B694322676456B00AD61C2 /* AddFriendsViewController.swift in Sources */,
+				61D775E826A7242E00740298 /* ServerUsers.swift in Sources */,
+				611770F026C2C5AD002A4985 /* PolylineNode.swift in Sources */,
+				61D5FB842680C2EF00E09380 /* Server.swift in Sources */,
+				61D69C6926582D1600B84E75 /* Structures.swift in Sources */,
+				611770E826C2C591002A4985 /* LocationManager.swift in Sources */,
+				61D69C292657FF1200B84E75 /* AppDelegate.swift in Sources */,
+				6198B4792662686D00BE1E0D /* ResetPasswordViewController.swift in Sources */,
+				61553AF4295CBAF200E804DE /* Security.swift in Sources */,
+				611770D726C2C56B002A4985 /* SceneLocationViewEstimateDelegate.swift in Sources */,
+				618188E0265BC48300B1BF1D /* TagsListViewController.swift in Sources */,
+				61194A00277BA68A00D7C3E0 /* updateAppViewController.swift in Sources */,
+				61D69C6526582C3000B84E75 /* OptionsViewController.swift in Sources */,
+				618188DA265BC2D100B1BF1D /* CreateAccountViewController.swift in Sources */,
+				61D69C6B26582D5800B84E75 /* GlobalVariables.swift in Sources */,
+				61D69C6126582AC200B84E75 /* AddingAndEditingViewController.swift in Sources */,
+				61D69C2B2657FF1200B84E75 /* SceneDelegate.swift in Sources */,
+				6172E253277F5B920098190D /* protocols.swift in Sources */,
+				611770D426C2C56B002A4985 /* SceneLocationView.swift in Sources */,
+				611770DE26C2C57E002A4985 /* CGPoint+Extensions.swift in Sources */,
+				6198B47D2662C85D00BE1E0D /* HighlightView.swift in Sources */,
+				613804AF2780683A000BFAA6 /* NetworkMonitor.swift in Sources */,
+				611770F326C2C5AD002A4985 /* LocationAnnotationNode.swift in Sources */,
+				611770F226C2C5AD002A4985 /* LocationNode.swift in Sources */,
+				618188DC265BC36100B1BF1D /* AccountInfoViewController.swift in Sources */,
+				611770DF26C2C57E002A4985 /* FloatingPoint+Radians.swift in Sources */,
+				61D69C6326582B5A00B84E75 /* InfoViewController.swift in Sources */,
+				61BE957F2661077B0030503E /* SingInViewController.swift in Sources */,
+				6198B477266218E400BE1E0D /* EmailCodeViewController.swift in Sources */,
+				611770EB26C2C591002A4985 /* SceneLocationManager.swift in Sources */,
+				6174133726592D0E0051845F /* StartFunctions.swift in Sources */,
+				6115A3FD267237DC00403330 /* WriteReviewViewController.swift in Sources */,
+				611770D626C2C56B002A4985 /* SceneLocationView+ARSCNViewDelegate.swift in Sources */,
+				61D775E426A723DE00740298 /* ServerAccounts.swift in Sources */,
+				611770EA26C2C591002A4985 /* SceneLocationEstimate+Extensions.swift in Sources */,
+				61B6213E282855AB000912A4 /* DistanceUpdater.swift in Sources */,
+				611770E226C2C57E002A4985 /* SCNVector3+Extensions.swift in Sources */,
+				61D775E626A7240C00740298 /* ServerTags.swift in Sources */,
+				611770E326C2C57E002A4985 /* CLLocation+Extensions.swift in Sources */,
+				618188DE265BC3F200B1BF1D /* FriendsViewController.swift in Sources */,
+				6198B47B266288B500BE1E0D /* CorrectAccountViewController.swift in Sources */,
+				61D69C5D26580AE300B84E75 /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61D69C372657FF1300B84E75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61D69C402657FF1300B84E75 /* ArMap_ProTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61D69C422657FF1300B84E75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61D69C4B2657FF1300B84E75 /* ArMap_ProUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61D69C3D2657FF1300B84E75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61D69C242657FF1200B84E75 /* ArMap Pro */;
+			targetProxy = 61D69C3C2657FF1300B84E75 /* PBXContainerItemProxy */;
+		};
+		61D69C482657FF1300B84E75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61D69C242657FF1200B84E75 /* ArMap Pro */;
+			targetProxy = 61D69C472657FF1300B84E75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		61563EE7277CB0BE00FCC124 /* UpdateApp.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61563EE6277CB0BE00FCC124 /* Base */,
+				61563EE9277CB0C800FCC124 /* ru */,
+			);
+			name = UpdateApp.storyboard;
+			sourceTree = "<group>";
+		};
+		615CF944277DC6BC0029C06E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				615CF943277DC6BC0029C06E /* ru */,
+				615CF946277DC6D90029C06E /* en */,
+			);
+			name = Localizable.strings;
+			path = "ArMap Pro";
+			sourceTree = "<group>";
+		};
+		6174B930266B6C1000CA28C9 /* Accounts.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6174B931266B6C1000CA28C9 /* Base */,
+				61D31C0F26A5878E00982471 /* ru */,
+			);
+			name = Accounts.storyboard;
+			sourceTree = "<group>";
+		};
+		6174B935266B6D6200CA28C9 /* Tags.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6174B936266B6D6200CA28C9 /* Base */,
+				61D31C0D26A5878E00982471 /* ru */,
+			);
+			name = Tags.storyboard;
+			sourceTree = "<group>";
+		};
+		61AA8E8426B5B81600F101F2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61AA8E8326B5B81600F101F2 /* ru */,
+				61AA8E8626B5B85000F101F2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		61D31C0C26A5874D00982471 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61D31C0B26A5874D00982471 /* Base */,
+				61D31C0E26A5878E00982471 /* ru */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		61D69C332657FF1300B84E75 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61D69C342657FF1300B84E75 /* Base */,
+				61D31C1026A5878E00982471 /* ru */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61D69C4D2657FF1300B84E75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		61D69C4E2657FF1300B84E75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61D69C502657FF1300B84E75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ArMap Pro/ArMap Pro.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 5P2MVJMNMA;
+				INFOPLIST_FILE = "ArMap Pro/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aleksey.ArMap-Pro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		61D69C512657FF1300B84E75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ArMap Pro/ArMap Pro.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 5P2MVJMNMA;
+				INFOPLIST_FILE = "ArMap Pro/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aleksey.ArMap-Pro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		61D69C532657FF1300B84E75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5P2MVJMNMA;
+				INFOPLIST_FILE = "ArMap ProTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ABN.com.ArMap-ProTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArMap Pro.app/ArMap Pro";
+			};
+			name = Debug;
+		};
+		61D69C542657FF1300B84E75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5P2MVJMNMA;
+				INFOPLIST_FILE = "ArMap ProTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ABN.com.ArMap-ProTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArMap Pro.app/ArMap Pro";
+			};
+			name = Release;
+		};
+		61D69C562657FF1300B84E75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5P2MVJMNMA;
+				INFOPLIST_FILE = "ArMap ProUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ABN.com.ArMap-ProUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ArMap Pro";
+			};
+			name = Debug;
+		};
+		61D69C572657FF1300B84E75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5P2MVJMNMA;
+				INFOPLIST_FILE = "ArMap ProUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ABN.com.ArMap-ProUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ArMap Pro";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61D69C202657FF1200B84E75 /* Build configuration list for PBXProject "ArMap Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61D69C4D2657FF1300B84E75 /* Debug */,
+				61D69C4E2657FF1300B84E75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61D69C4F2657FF1300B84E75 /* Build configuration list for PBXNativeTarget "ArMap Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61D69C502657FF1300B84E75 /* Debug */,
+				61D69C512657FF1300B84E75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61D69C522657FF1300B84E75 /* Build configuration list for PBXNativeTarget "ArMap ProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61D69C532657FF1300B84E75 /* Debug */,
+				61D69C542657FF1300B84E75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61D69C552657FF1300B84E75 /* Build configuration list for PBXNativeTarget "ArMap ProUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61D69C562657FF1300B84E75 /* Debug */,
+				61D69C572657FF1300B84E75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61D69C1D2657FF1200B84E75 /* Project object */;
+}

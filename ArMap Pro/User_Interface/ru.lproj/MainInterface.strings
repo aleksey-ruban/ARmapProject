@@ -1,0 +1,69 @@
+
+/* Class = "UILabel"; text = "Offline mode"; ObjectID = "1fS-1k-I4C"; */
+"1fS-1k-I4C.text" = "Офлайн режим";
+
+/* Class = "UILabel"; text = "Light"; ObjectID = "56k-bA-hKI"; */
+"56k-bA-hKI.text" = "Светлый";
+
+/* Class = "UILabel"; text = "Offline mode allows you to save the base of tags and use it without the Internet."; ObjectID = "8P3-qU-REZ"; */
+"8P3-qU-REZ.text" = "Офлайн режим позволяет вам сохранять базу меток и пользоваться ею без интернета.";
+
+/* Class = "UILabel"; text = "The maximum distance up to which augmented reality tags will appear."; ObjectID = "8UB-uL-wDU"; */
+"8UB-uL-wDU.text" = "Максимальное расстояние, до которого будут появляться метки дополненной реальности.";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "BQN-se-sCU"; */
+"BQN-se-sCU.text" = "Метка";
+
+/* Class = "UIViewController"; title = "Main View Controller"; ObjectID = "BYZ-38-t0r"; */
+"BYZ-38-t0r.title" = "Главный экран";
+
+/* Class = "UILabel"; text = "Satellite"; ObjectID = "BmT-5v-Tyv"; */
+"BmT-5v-Tyv.text" = "Спутник";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "OQo-5f-kPF"; */
+"OQo-5f-kPF.normalTitle" = "Готово";
+
+/* Class = "UILabel"; text = "Appearance"; ObjectID = "Pg5-Jg-Ymg"; */
+"Pg5-Jg-Ymg.text" = "Внешний вид";
+
+/* Class = "UIViewController"; title = "Account View Controller"; ObjectID = "VLk-u6-UAz"; */
+"VLk-u6-UAz.title" = "Экран с Аккаунтом";
+
+/* Class = "UILabel"; text = "Type of map"; ObjectID = "ZCw-LU-YnX"; */
+"ZCw-LU-YnX.text" = "Тип карты";
+
+/* Class = "UILabel"; text = "Create your account"; ObjectID = "a4n-OX-IRl"; */
+"a4n-OX-IRl.text" = "Создайте свой аккаунт";
+
+/* Class = "UILabel"; text = "Hybrid"; ObjectID = "d8U-p5-PlO"; */
+"d8U-p5-PlO.text" = "Гибрид";
+
+/* Class = "UILabel"; text = "Dark"; ObjectID = "dTv-qB-ZLc"; */
+"dTv-qB-ZLc.text" = "Тёмный";
+
+/* Class = "UILabel"; text = "Render distance:"; ObjectID = "fNu-3G-EBV"; */
+"fNu-3G-EBV.text" = "Дальность прорисовки:";
+
+/* Class = "UIViewController"; title = "Map View Controller"; ObjectID = "jTP-zU-KnE"; */
+"jTP-zU-KnE.title" = "Экран с картой";
+
+/* Class = "UILabel"; text = "Map"; ObjectID = "l8v-qJ-l3H"; */
+"l8v-qJ-l3H.text" = "Карта";
+
+/* Class = "UILabel"; text = "Back"; ObjectID = "nfF-Mf-GZY"; */
+"nfF-Mf-GZY.text" = "Назад";
+
+/* Class = "UILabel"; text = "System"; ObjectID = "raR-mO-RYy"; */
+"raR-mO-RYy.text" = "Системный";
+
+/* Class = "UINavigationItem"; title = "Options"; ObjectID = "yiK-0B-G6b"; */
+"yiK-0B-G6b.title" = "Настройки";
+
+/* Class = "UILabel"; text = "Show foreign tags"; ObjectID = "Jtn-n6-xw3"; */
+"Jtn-n6-xw3.text" = "Иностранные метки";
+
+/* Class = "UILabel"; text = "You will see foreign non-localized tags."; ObjectID = "Beh-Wy-U9z"; */
+"Beh-Wy-U9z.text" = "Вы будете видеть иностранные не локализованные метки.";
+
+/* Class = "UILabel"; text = "Develope mode"; ObjectID = "v3e-eE-QWy"; */
+"v3e-eE-QWy.text" = "Режим разработки";
