@@ -11,10 +11,12 @@
   - Обмен метками с друзьями для совместного использования.
 
 <div>
-  <img src="demonstration/mainScreen6-5.jpg" width="242">
-  <img src="demonstration/addScreen6-5.jpg" width="242">
-  <img src="demonstration/infoScreen6-5.jpg" width="242">
-  <img src="demonstration/accountScreen6-5.jpg" width="242">
+  <img src="demonstration/mainScreen6-5.jpg" width="320">
+  <img src="demonstration/addScreen6-5.jpg" width="320">
+</div>
+<div>
+  <img src="demonstration/infoScreen6-5.jpg" width="320">
+  <img src="demonstration/accountScreen6-5.jpg" width="320">
 </div>
 
 ## Техническая реализация:
@@ -27,6 +29,11 @@
   - **Storyboard** для визуального проектирования интерфейса.
   - **AutoLayout** для адаптивной верстки.
   - Программная генерация UI-элементов в коде. 
+
+## Видео-демонстрация приложения:
+<a href="demonstration/demonstration.mp4">
+  <img src="demonstration/mainScreen6-5.jpg" width="320">
+</a>
 
 ## Дополнительные возможности:
 - **Push-уведомления**: Реализована поддержка уведомлений с использованием **APNS (Apple Push Notification Service)**.
