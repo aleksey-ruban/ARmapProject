@@ -31,8 +31,10 @@
   - Программная генерация UI-элементов в коде. 
 
 ## Видео-демонстрация приложения:
+Смотреть [видео на YouTube](https://www.youtube.com/watch?v=rcMmFjktuFk)
+
 <a href="demonstration/demonstration.mp4">
-  <img src="demonstration/mainScreen6-5.jpg" width="320">
+  <img src="demonstration/videoPreview.png" width="320">
 </a>
 
 ## Дополнительные возможности:
